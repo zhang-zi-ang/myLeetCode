@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9E8B7BE241D1D9400398F31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B9E8B7BD241D1D9400398F31 /* main.c */; };
+		B9E8B7CE241D21A700398F31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B9E8B7CD241D21A700398F31 /* main.c */; };
+		B9E8B7D2241D228F00398F31 /* twoSum.c in Sources */ = {isa = PBXBuildFile; fileRef = B9E8B7D1241D228F00398F31 /* twoSum.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		B9E8B7BA241D1D9400398F31 /* myLeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myLeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9E8B7BD241D1D9400398F31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B9E8B7CD241D21A700398F31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B9E8B7D0241D228F00398F31 /* twoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twoSum.h; sourceTree = "<group>"; };
+		B9E8B7D1241D228F00398F31 /* twoSum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = twoSum.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		B9E8B7BC241D1D9400398F31 /* myLeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				B9E8B7BD241D1D9400398F31 /* main.c */,
+				B9E8B7CF241D224A00398F31 /* 0001-两数之和 */,
+				B9E8B7CD241D21A700398F31 /* main.c */,
 			);
 			path = myLeetCode;
+			sourceTree = "<group>";
+		};
+		B9E8B7CF241D224A00398F31 /* 0001-两数之和 */ = {
+			isa = PBXGroup;
+			children = (
+				B9E8B7D1241D228F00398F31 /* twoSum.c */,
+				B9E8B7D0241D228F00398F31 /* twoSum.h */,
+			);
+			path = "0001-两数之和";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E8B7BE241D1D9400398F31 /* main.c in Sources */,
+				B9E8B7D2241D228F00398F31 /* twoSum.c in Sources */,
+				B9E8B7CE241D21A700398F31 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
